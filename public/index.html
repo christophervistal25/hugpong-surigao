@@ -9,7 +9,7 @@
     <meta name="description" content="Surigaonon Para sa Surigao" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
-    <link rel="icon" href="https://51.79.242.246/plataporma/public/assets/images/favicon.png">
+    <link rel="icon" href="../src/assets/images/favicon.png">
     <title>Surigao Para sa Suriganon!</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha512-4uGZHpbDliNxiAv/QzZNo/yb2FtAX+qiDb7ypBWiEdJQX8Pugp8M6il5SRkN8jQrDLWsh3rrPDSXRf3DwFYM6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -25,103 +25,102 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bootstrap.native/1.0.4/bootstrap-native.js"></script>
     <script>
-      
-$( document ).ready(function() {
-	$('.m-nav a .fa-times').hide();
+		$( document ).ready(function() {
+			$('.m-nav a .fa-times').hide();
 
-	$('.carousel').carousel({
-  		interval: 5000
-	});
+			$('.carousel').carousel({
+				interval: 1000
+			});
 
-	$('html').on('click', function() {
-	   // $('.subnav').hide(); 
-	});
+		$('html').on('click', function() {
+		// $('.subnav').hide(); 
+		});
 
-	$('.nav').on('click', function(event){
-	     event.stopPropagation();
-	});
-	
-	$('.sublevel').on('click', function(event){
-	     $('#kumilos-nav2').toggle();
-	     $('#kilalanin').hide();
-	});
+		$('.nav').on('click', function(event){
+			event.stopPropagation();
+		});
+		
+		$('.sublevel').on('click', function(event){
+			$('#kumilos-nav2').toggle();
+			$('#kilalanin').hide();
+		});
 
-	$('.sublevel2').on('click', function(event){
-	     $('#kumilos-nav2').hide();
-	     $('#kilalanin').toggle();
-	});
+		$('.sublevel2').on('click', function(event){
+			$('#kumilos-nav2').hide();
+			$('#kilalanin').toggle();
+		});
 
-	$('.m-nav a').on('click', function(){
-		$('.m-nav a .fa-times').toggle();
-		$('.m-nav a .fa-bars').toggle();
-		$('.nav').toggle();
-	});
+		$('.m-nav a').on('click', function(){
+			$('.m-nav a .fa-times').toggle();
+			$('.m-nav a .fa-bars').toggle();
+			$('.nav').toggle();
+		});
 
-	$('.showcall').on('click', function(){
-		$('#calltext').fadeIn();
-	});
+		$('.showcall').on('click', function(){
+			$('#calltext').fadeIn();
+		});
 
-	$('.showdonate').on('click', function(){
-		$('#donate-now').fadeIn();
-	});
+		$('.showdonate').on('click', function(){
+			$('#donate-now').fadeIn();
+		});
 
-	$('.phone-holder .close-btn').on('click', function(){
-		$('#calltext').fadeOut();
-		$('#donate-now').fadeOut();
+		$('.phone-holder .close-btn').on('click', function(){
+			$('#calltext').fadeOut();
+			$('#donate-now').fadeOut();
 
-		var swidth = window.screen.availWidth;
-		if (swidth < 767){
-			hideAll();
+			var swidth = window.screen.availWidth;
+			if (swidth < 767){
+				hideAll();
+			}
+		});
+
+		function hideAll(){		
+			$('#kumilos-nav2').fadeOut();
+			$('#kilalanin').fadeOut();
+			$('.nav').fadeOut();
 		}
+
+		$(".nav a[href^='#']").on('click', function(e) {
+
+		// prevent default anchor click behavior
+		e.preventDefault();
+
+		// store hash
+		var hash = this.hash;
+
+		// animate
+		$('html, body').animate({
+			scrollTop: $(hash).offset().top
+			}, 300, function(){
+
+			// when done, add hash to url
+			// (default click behaviour)
+			window.location.hash = hash;
+			});
+
+		});
+
+		window.onscroll = function() {scrollFunction()};
+
+		$('#myBtn').on('click', function(e){
+			topFunction();
+		});
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+
 	});
-
-	function hideAll(){		
-	    $('#kumilos-nav2').fadeOut();
-	    $('#kilalanin').fadeOut();
-		$('.nav').fadeOut();
-	}
-
-	$(".nav a[href^='#']").on('click', function(e) {
-
-	   // prevent default anchor click behavior
-	   e.preventDefault();
-
-	   // store hash
-	   var hash = this.hash;
-
-	   // animate
-	   $('html, body').animate({
-	       scrollTop: $(hash).offset().top
-	     }, 300, function(){
-
-	       // when done, add hash to url
-	       // (default click behaviour)
-	       window.location.hash = hash;
-	     });
-
-	});
-
-	window.onscroll = function() {scrollFunction()};
-
-	$('#myBtn').on('click', function(e){
-		topFunction();
-	});
-
-	function scrollFunction() {
-	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-	        document.getElementById("myBtn").style.display = "block";
-	    } else {
-	        document.getElementById("myBtn").style.display = "none";
-	    }
-	}
-
-	// When the user clicks on the button, scroll to the top of the document
-	function topFunction() {
-	    document.body.scrollTop = 0;
-	    document.documentElement.scrollTop = 0;
-	}
-
-});
     </script>
   </body>
 </html>

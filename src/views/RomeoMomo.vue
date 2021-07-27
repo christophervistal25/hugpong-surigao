@@ -4,11 +4,7 @@
     <Navigation />
     <div class="section candidate-holder">
       <div class="candidate">
-        <img
-          src="http://51.79.242.246/plataporma/public/assets/images/momo-plataporma-solo.png"
-          alt=""
-          title=""
-        />
+        <img src="../assets/images/momo-plataporma-solo.png" alt="" title="" />
       </div>
     </div>
 
@@ -25,18 +21,14 @@
 
     <div class="section yellow candidate-platform">
       <div class="diagonal-divider-top">
-        <img
-          src="http://51.79.242.246/plataporma/public/assets/images/divider-white-0.png"
-        />
+        <img src="../assets/images/divider-white-0.png" />
       </div>
       <div class="top-pad">&nbsp;</div>
       <div class="platform">
         <h1 class="fgrey">PLATAPORMA</h1>
         <div class="ico">
           <p>
-            <img
-              src="http://51.79.242.246/plataporma/public/assets/images/favicon.png"
-            />
+            <img src="../assets/images/favicon.png" />
           </p>
         </div>
         <div class="desc">
@@ -57,31 +49,21 @@
     </div>
     <div class="section white">
       <div class="diagonal-divider-top">
-        <img
-          src="http://51.79.242.246/plataporma/public/assets/images/divider-yellow-0.png"
-        />
+        <img src="../assets/images/divider-yellow-0.png" />
       </div>
       <div class="diagonal-divider-bottom inner-cand">
-        <img
-          src="http://51.79.242.246/plataporma/public/assets/images/divider-0-grey.png"
-        />
+        <img src="../assets/images/divider-0-grey.png" />
       </div>
       <div class="carousel slide" data-ride="carousel" id="group1">
         <div class="carousel-inner">
           <div class="carousel-item">
-            <img
-              src="http://51.79.242.246/plataporma/public/assets/images/ayek-plataporma.jpg"
-            />
+            <img src="../assets/images/ayek-plataporma.jpg" />
           </div>
           <div class="carousel-item active">
-            <img
-              src="http://51.79.242.246/plataporma/public/assets/images/ayek-plataporma2.jpg"
-            />
+            <img src="../assets/images/ayek-plataporma2.jpg" />
           </div>
           <div class="carousel-item">
-            <img
-              src="http://51.79.242.246/plataporma/public/assets/images/ayek-plataporma3.jpg"
-            />
+            <img src="../assets/images/ayek-plataporma3.jpg" />
           </div>
         </div>
       </div>
@@ -128,9 +110,7 @@
     </div>
     <div class="section white">
       <div class="diagonal-divider-top">
-        <img
-          src="http://51.79.242.246/plataporma/public/assets/images/divider-grey-0.png "
-        />
+        <img src="../assets/images/divider-grey-0.png " />
       </div>
       <div class="top-pad">&nbsp;</div>
     </div>
@@ -144,9 +124,7 @@
     <br />
     <div class="section footer-kumilos">
       <div class="diagonal-divider-bottom">
-        <img
-          src="http://51.79.242.246/plataporma/public/assets/images/divider_white_blue.png"
-        />
+        <img src="../assets/images/divider_white_blue.png" />
       </div>
     </div>
     <div class="section blue">
