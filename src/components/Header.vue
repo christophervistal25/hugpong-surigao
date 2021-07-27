@@ -18,21 +18,21 @@
         <div class="carousel-item active">
           <img
             class="d-block w-100"
-            src="http://51.79.242.246/plataporma/public/assets/images/header2.jpg"
+            src="../assets/images/header2.jpg"
             alt="First slide"
           />
         </div>
         <div class="carousel-item">
           <img
             class="d-block w-100"
-            src="http://51.79.242.246/plataporma/public/assets/images/header4.jpg"
+            src="../assets/images/header4.jpg"
             alt="Second slide"
           />
         </div>
         <div class="carousel-item">
           <img
             class="d-block w-100"
-            src="http://51.79.242.246/plataporma/public/assets/images/header3.jpg"
+            src="../assets/images/header3.jpg"
             alt="Third slide"
           />
         </div>

@@ -6,12 +6,13 @@
       <div class="row">
         <div class="col-12">
           <div class="candidate w-325 m-negmargin-5">
-            <a href="http://51.79.242.246/plataporma/alexander-t-pimentel"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/ayek.png"
+            <router-link to="/ayek-t-pimentel">
+              <img
+                src="../assets/images/ayek.png"
                 alt="Alexander Pimentel"
                 title="Alexander Pimentel"
-            /></a>
+              />
+            </router-link>
           </div>
           <div class="clear"></div>
         </div>
@@ -21,124 +22,82 @@
         <div class="col-4">
           <h1 style="padding-top: 30px" class="fgrey">1st District</h1>
           <div class="candidate w-custom-size">
-            <a href="http://51.79.242.246/plataporma/romeo-s-momo"
+            <router-link to="/romeo-s-momo"
               ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/momo.png"
+                src="../assets/images/momo.png"
                 alt="Romeo Momo"
                 title="Romeo Momo"
-            /></a>
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="clear"></div>
         </div>
@@ -174,52 +133,37 @@
         <div class="col-4">
           <h1 style="padding-top: 30px" class="fgrey">2nd District</h1>
           <div class="candidate w-custom-size2">
-            <a href="http://51.79.242.246/plataporma/johnny-t-pimentel"
+            <router-link to="/johny-t-pimentel"
               ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/johnny.png"
+                src="../assets/images/johnny.png"
                 alt="Johnny Pimentel"
                 title="Johnny Pimentel"
-            /></a>
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="candidate w-custom-size1">
-            <a href="http://51.79.242.246/plataporma"
-              ><img
-                src="http://51.79.242.246/plataporma/public/assets/images/custome-image.png"
-                alt=""
-                title=""
-            /></a>
+            <router-link to="/">
+              ><img src="../assets/images/custome-image.png" alt="" title=""
+            /></router-link>
           </div>
           <div class="clear"></div>
         </div>
@@ -227,33 +171,23 @@
     </div>
     <div class="section highlight">
       <div class="diagonal-divider-top">
-        <img
-          src="http://51.79.242.246/plataporma/public/assets/images/divider-white-0.png"
-        />
+        <img src="../assets/images/divider-white-0.png" />
       </div>
       <div class="carousel slide" data-ride="carousel" id="group1">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src="http://51.79.242.246/plataporma/public/assets/images/slide2.jpg"
-            />
+            <img src="../assets/images/slide2.jpg" />
           </div>
           <div class="carousel-item">
-            <img
-              src="http://51.79.242.246/plataporma/public/assets/images/slide4.jpg"
-            />
+            <img src="../assets/images/slide4.jpg" />
           </div>
         </div>
       </div>
       <div class="diagonal-divider-bottom" id="matuto">
-        <img
-          src="http://51.79.242.246/plataporma/public/assets/images/divider-0-grey.png"
-        />
+        <img src="../assets/images/divider-0-grey.png" />
       </div>
       <div class="diagonal-divider-bottom" id="matuto">
-        <img
-          src="http://51.79.242.246/plataporma/public/assets/images/divider-0-grey.png"
-        />
+        <img src="../assets/images/divider-0-grey.png" />
       </div>
     </div>
     <div class="section grey" id="makinig">
@@ -271,9 +205,7 @@
     </div>
     <div class="section white footer-kumilos">
       <div class="diagonal-divider-top">
-        <img
-          src="http://51.79.242.246/plataporma/public/assets/images/divider-grey-0.png"
-        />
+        <img src="../assets/images/divider-grey-0.png" />
       </div>
     </div>
     <br />
@@ -295,9 +227,7 @@
   </div>
   <div class="section footer-kumilos">
     <div class="diagonal-divider-bottom">
-      <img
-        src="http://51.79.242.246/plataporma/public/assets/images/divider_white_blue.png"
-      />
+      <img src="../assets/images/divider_white_blue.png" />
     </div>
   </div>
   <div class="section blue">
