@@ -1731,7 +1731,7 @@ h1 span {
     padding-top: 30px;
   }
   .candidate-description .desc:before {
-    content: "â€œ";
+    content: "“";
     left: -20px;
     bottom: auto;
     top: 0;
